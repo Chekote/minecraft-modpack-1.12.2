@@ -1,11 +1,11 @@
 {
   "canGenerateRivers": false,
-  "beachBiomeLocation": "biomesoplenty:origin_beach",
+  "beachBiomeLocation": "minecraft:beaches",
   "skyColor": 8441086,
   "fogDensity": 1.0,
-  "hasBiomeEssence": true,
-  "variationBelow": 6.0,
-  "variationAbove": 25.0,
+  "hasBiomeEssence": false,
+  "variationBelow": 1.0,
+  "variationAbove": 1.0,
   "seaFloorBlock": {
     "block": "minecraft:dirt",
     "properties": {
@@ -14,23 +14,21 @@
     }
   },
   "fillerBlock": {
-    "block": "minecraft:dirt",
+    "block": "minecraft:sand",
     "properties": {
-      "snowy": "false",
-      "variant": "dirt"
+      "variant": "sand"
     }
   },
   "averageHeight": 64.0,
   "topBlock": {
-    "block": "biomesoplenty:grass",
+    "block": "minecraft:sand",
     "properties": {
-      "snowy": "false",
-      "variant": "origin"
+      "variant": "sand"
     }
   },
   "fogColor": -1,
   "canGenerateVillages": false,
-  "canSpawnInBiome": true,
+  "canSpawnInBiome": false,
   "generators": {
     "glowshrooms": {
       "with": {
@@ -42,11 +40,6 @@
       "generationAttempts": 64,
       "amountPerChunk": 1.5,
       "enable": true
-    },
-    "flowers": {
-      "amountPerChunk": 0.4,
-      "enable": true,
-      "generators": {}
     },
     "miners_delight": {
       "with": {
@@ -84,29 +77,6 @@
       "generationAttempts": 32,
       "amountPerChunk": 4.0,
       "enable": true
-    },
-    "trees": {
-      "minHeight": 5,
-      "logState": {
-        "block": "minecraft:log",
-        "properties": {
-          "axis": "y",
-          "variant": "oak"
-        }
-      },
-      "amountPerChunk": 5.0,
-      "maxHeight": 8,
-      "enable": true,
-      "updateNeighbours": false,
-      "hangingChance": 0.0,
-      "leavesState": {
-        "block": "biomesoplenty:leaves_2",
-        "properties": {
-          "check_decay": "false",
-          "decayable": "true",
-          "variant": "origin"
-        }
-      }
     }
   },
   "weights": {}

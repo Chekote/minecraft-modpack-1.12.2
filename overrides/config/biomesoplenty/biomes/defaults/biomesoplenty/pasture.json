@@ -1,11 +1,11 @@
 {
-  "canGenerateRivers": false,
-  "beachBiomeLocation": "biomesoplenty:origin_beach",
-  "skyColor": 8441086,
+  "canGenerateRivers": true,
+  "beachBiomeLocation": "minecraft:beaches",
+  "skyColor": -1,
   "fogDensity": 1.0,
-  "hasBiomeEssence": true,
-  "variationBelow": 6.0,
-  "variationAbove": 25.0,
+  "hasBiomeEssence": false,
+  "variationBelow": 4.0,
+  "variationAbove": 6.0,
   "seaFloorBlock": {
     "block": "minecraft:dirt",
     "properties": {
@@ -14,10 +14,10 @@
     }
   },
   "fillerBlock": {
-    "block": "minecraft:dirt",
+    "block": "biomesoplenty:dirt",
     "properties": {
-      "snowy": "false",
-      "variant": "dirt"
+      "coarse": "false",
+      "variant": "silty"
     }
   },
   "averageHeight": 64.0,
@@ -25,7 +25,7 @@
     "block": "biomesoplenty:grass",
     "properties": {
       "snowy": "false",
-      "variant": "origin"
+      "variant": "silty"
     }
   },
   "fogColor": -1,
@@ -43,11 +43,6 @@
       "amountPerChunk": 1.5,
       "enable": true
     },
-    "flowers": {
-      "amountPerChunk": 0.4,
-      "enable": true,
-      "generators": {}
-    },
     "miners_delight": {
       "with": {
         "block": "biomesoplenty:flower_1",
@@ -57,6 +52,23 @@
       },
       "generationAttempts": 64,
       "amountPerChunk": 0.25,
+      "enable": true
+    },
+    "grass": {
+      "amountPerChunk": 0.5,
+      "enable": true,
+      "generators": {}
+    },
+    "peridot": {
+      "minHeight": 4,
+      "with": {
+        "block": "biomesoplenty:gem_ore",
+        "properties": {
+          "variant": "peridot"
+        }
+      },
+      "amountPerChunk": 12.0,
+      "maxHeight": 32,
       "enable": true
     },
     "stone_formations": {
@@ -74,6 +86,17 @@
       "enable": true,
       "randomDirection": true
     },
+    "barley": {
+      "with": {
+        "block": "biomesoplenty:plant_1",
+        "properties": {
+          "variant": "barley"
+        }
+      },
+      "generationAttempts": 32,
+      "amountPerChunk": 45.0,
+      "enable": true
+    },
     "roots": {
       "with": {
         "block": "biomesoplenty:plant_1",
@@ -85,28 +108,16 @@
       "amountPerChunk": 4.0,
       "enable": true
     },
-    "trees": {
-      "minHeight": 5,
-      "logState": {
-        "block": "minecraft:log",
+    "water_reeds": {
+      "with": {
+        "block": "biomesoplenty:plant_1",
         "properties": {
-          "axis": "y",
-          "variant": "oak"
+          "variant": "reed"
         }
       },
-      "amountPerChunk": 5.0,
-      "maxHeight": 8,
-      "enable": true,
-      "updateNeighbours": false,
-      "hangingChance": 0.0,
-      "leavesState": {
-        "block": "biomesoplenty:leaves_2",
-        "properties": {
-          "check_decay": "false",
-          "decayable": "true",
-          "variant": "origin"
-        }
-      }
+      "generationAttempts": 32,
+      "amountPerChunk": 1.0,
+      "enable": true
     }
   },
   "weights": {}
