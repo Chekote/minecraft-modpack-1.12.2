@@ -20,8 +20,8 @@
           "variant": "sea_oats"
         }
       },
-      "generationAttempts": 128,
-      "amountPerChunk": 10.0,
+      "generationAttempts": 96,
+      "amountPerChunk": 6.0,
       "enable": true,
       "withTop": {
         "block": "biomesoplenty:double_plant",

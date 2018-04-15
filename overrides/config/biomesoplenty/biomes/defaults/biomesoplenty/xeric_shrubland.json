@@ -49,7 +49,7 @@
         }
       },
       "generationAttempts": 8,
-      "amountPerChunk": 30.0,
+      "amountPerChunk": 15.0,
       "enable": true
     },
     "miners_delight": {
@@ -114,7 +114,7 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 0.5,
+      "amountPerChunk": 1.5,
       "enable": true
     },
     "dead_bushes": {
@@ -123,23 +123,7 @@
         "properties": {}
       },
       "generationAttempts": 32,
-      "amountPerChunk": 0.5,
-      "enable": true
-    },
-    "grass": {
-      "amountPerChunk": 1.8,
-      "enable": true,
-      "generators": {}
-    },
-    "bushes": {
-      "with": {
-        "block": "biomesoplenty:plant_0",
-        "properties": {
-          "variant": "bush"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 1.8,
+      "amountPerChunk": 1.0,
       "enable": true
     },
     "desert_sprouts": {
@@ -150,7 +134,7 @@
         }
       },
       "generationAttempts": 8,
-      "amountPerChunk": 5.5,
+      "amountPerChunk": 2.0,
       "enable": true
     },
     "bromeliad": {
@@ -186,7 +170,7 @@
         }
       },
       "generationAttempts": 8,
-      "amountPerChunk": 1.2,
+      "amountPerChunk": 4.0,
       "enable": true
     }
   },
