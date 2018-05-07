@@ -52,60 +52,6 @@
       "amountPerChunk": 15.0,
       "enable": true
     },
-    "miners_delight": {
-      "with": {
-        "block": "biomesoplenty:flower_1",
-        "properties": {
-          "variant": "miners_delight"
-        }
-      },
-      "generationAttempts": 64,
-      "amountPerChunk": 0.25,
-      "enable": true
-    },
-    "stone_formations": {
-      "minHeight": 1,
-      "with": {
-        "block": "biomesoplenty:stone_formations",
-        "properties": {
-          "position": "stalagmite_small",
-          "variant": "stone_formation"
-        }
-      },
-      "generationAttempts": 16,
-      "amountPerChunk": 30.0,
-      "maxHeight": 5,
-      "enable": true,
-      "randomDirection": true
-    },
-    "roots": {
-      "with": {
-        "block": "biomesoplenty:plant_1",
-        "properties": {
-          "variant": "root"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 4.0,
-      "enable": true
-    },
-    "trees": {
-      "amountPerChunk": 2.0,
-      "enable": true,
-      "generators": {}
-    },
-    "ruby": {
-      "minHeight": 4,
-      "with": {
-        "block": "biomesoplenty:gem_ore",
-        "properties": {
-          "variant": "ruby"
-        }
-      },
-      "amountPerChunk": 12.0,
-      "maxHeight": 32,
-      "enable": true
-    },
     "tiny_cacti": {
       "with": {
         "block": "biomesoplenty:plant_1",
@@ -115,6 +61,17 @@
       },
       "generationAttempts": 32,
       "amountPerChunk": 1.5,
+      "enable": true
+    },
+    "miners_delight": {
+      "with": {
+        "block": "biomesoplenty:flower_1",
+        "properties": {
+          "variant": "miners_delight"
+        }
+      },
+      "generationAttempts": 64,
+      "amountPerChunk": 0.25,
       "enable": true
     },
     "dead_bushes": {
@@ -162,6 +119,17 @@
       "enable": true,
       "randomDirection": false
     },
+    "roots": {
+      "with": {
+        "block": "biomesoplenty:plant_1",
+        "properties": {
+          "variant": "root"
+        }
+      },
+      "generationAttempts": 32,
+      "amountPerChunk": 4.0,
+      "enable": true
+    },
     "desertgrass": {
       "with": {
         "block": "biomesoplenty:plant_0",
@@ -171,6 +139,23 @@
       },
       "generationAttempts": 8,
       "amountPerChunk": 4.0,
+      "enable": true
+    },
+    "trees": {
+      "amountPerChunk": 2.0,
+      "enable": true,
+      "generators": {}
+    },
+    "ruby": {
+      "minHeight": 4,
+      "with": {
+        "block": "biomesoplenty:gem_ore",
+        "properties": {
+          "variant": "ruby"
+        }
+      },
+      "amountPerChunk": 12.0,
+      "maxHeight": 32,
       "enable": true
     }
   },
