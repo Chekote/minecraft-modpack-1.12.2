@@ -160,7 +160,5 @@
       "enable": true
     }
   },
-  "weights": {
-    "tundra": 10
-  }
+  "weights": {}
 }

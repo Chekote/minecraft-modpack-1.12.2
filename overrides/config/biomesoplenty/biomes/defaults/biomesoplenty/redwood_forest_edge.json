@@ -3,7 +3,7 @@
   "beachBiomeLocation": "minecraft:beaches",
   "skyColor": -1,
   "fogDensity": 1.0,
-  "hasBiomeEssence": true,
+  "hasBiomeEssence": false,
   "variationBelow": 4.0,
   "variationAbove": 10.0,
   "seaFloorBlock": {
@@ -76,27 +76,6 @@
       "amountPerChunk": 0.1,
       "enable": true
     },
-    "double_fern": {
-      "with": {
-        "block": "minecraft:double_plant",
-        "properties": {
-          "facing": "north",
-          "half": "lower",
-          "variant": "double_fern"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 5.0,
-      "enable": true,
-      "withTop": {
-        "block": "minecraft:double_plant",
-        "properties": {
-          "facing": "north",
-          "half": "upper",
-          "variant": "sunflower"
-        }
-      }
-    },
     "brown_mushrooms": {
       "with": {
         "block": "minecraft:brown_mushroom",
@@ -155,12 +134,10 @@
       "enable": true
     },
     "trees": {
-      "amountPerChunk": 15.0,
+      "amountPerChunk": 8.0,
       "enable": true,
       "generators": {}
     }
   },
-  "weights": {
-    "warm_temperate": 7
-  }
+  "weights": {}
 }
