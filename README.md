@@ -7,6 +7,7 @@ It'a also provide a much simpler installation process and a nice interface for t
 Includes the following non Curse mods:
 
 * [Galacticraft](https://micdoodle8.com/mods/galacticraft) by [MicDoodle8](https://www.patreon.com/micdoodle8)
+* [OptiFine](https://www.optifine.net/home) by [sp614x](https://www.minecraftforum.net/members/sp614x)
 
 # How to install:
 
