@@ -1,4 +1,4 @@
 #!/usr/bin/env sh
 echo "Calling clean manifest"
-php ./scripts/clean_manifest.php manifest.json
+php ./bin/clean_manifest.php manifest.json
 git add manifest.json
